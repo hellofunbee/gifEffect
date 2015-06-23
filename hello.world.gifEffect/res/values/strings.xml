@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_paints">PaintsActivity</string>
+    <string name="title_activity_show_gif">ShowGif</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="splash_btn1">动态画图(draw gif)</string>
+    <string name="splash_btn2">动态特效(gif effect)</string>
+    <string name="act_set_tv1">多核加速(multi process)</string>
+    <string name="act_set_tv2">预览延时(show delay)</string>
+    <string name="act_set_tv3">每帧延时(save delay)</string>
+    <string name="act_set_tv4">图片质量(quality)</string>
+    <string name="wait">wait...</string>
+    <string name="set_bgColor">设置背景颜色(set background color)</string>
+
+</resources>

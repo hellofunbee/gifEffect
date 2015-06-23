@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#55000000"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gv_show_gif"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3" >
+    </GridView>
+
+    <hello.world.mylayout.GifImageView
+        android:id="@+id/miv_show_gif"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/darker_gray">
+    </hello.world.mylayout.GifImageView>
+
+    <ImageView
+        android:id="@+id/iv_share_helper"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

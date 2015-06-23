@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="gone" >
+     <ImageView
+          android:id="@+id/as_bg_color"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/color_pic_as_bg_color"
+        />
+    <ImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/color_helper"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/color_pic" />
+    
+
+</RelativeLayout>

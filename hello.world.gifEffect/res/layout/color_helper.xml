@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/color_helper_ok"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/color_pic_ok"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/color_helper"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/color_pic" />
+
+</RelativeLayout>
