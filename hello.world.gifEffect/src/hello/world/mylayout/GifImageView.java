@@ -10,7 +10,10 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class GifImageView extends ImageView {
 	private boolean notInitial = true;
 	private GifDecoder gd;

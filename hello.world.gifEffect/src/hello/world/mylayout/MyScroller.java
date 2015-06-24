@@ -1,7 +1,10 @@
 package hello.world.mylayout;
 
 import android.os.SystemClock;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class MyScroller {
 
 	private int startX;
@@ -22,7 +25,7 @@ public class MyScroller {
 	}
 /**
  * 
- * �����Ƿ�������������˴�Ϊʱ����ƣ�ֻҪʱ�����꣬�ͻ��������?
+ * �����Ƿ�������������˴�Ϊʱ����ƣ�ֻҪʱ�����꣬�ͻ��������?
  * @return
  */
 	public boolean computeScrollOffset() {

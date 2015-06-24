@@ -26,7 +26,10 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class ShowGifActivity extends Activity {
 	private List<String> imagePathList;
 	private GridView gv_gif_show;

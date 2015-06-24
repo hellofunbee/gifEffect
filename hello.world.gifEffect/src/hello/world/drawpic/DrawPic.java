@@ -71,7 +71,10 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class DrawPic extends BaseSetupActivity {
 	protected static final int PAINT_SHOW_OFF = 3;
 

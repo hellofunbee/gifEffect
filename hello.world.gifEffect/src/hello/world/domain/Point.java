@@ -1,7 +1,10 @@
 package hello.world.domain;
 
 import java.io.Serializable;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Point implements Serializable {
 	/**
 	 * 

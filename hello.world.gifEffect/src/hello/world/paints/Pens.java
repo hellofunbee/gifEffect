@@ -1,7 +1,10 @@
 package hello.world.paints;
 
 import hello.world.builder.gifeffect.R;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Pens {
 	public static int[] getPen_bitmap() {
 

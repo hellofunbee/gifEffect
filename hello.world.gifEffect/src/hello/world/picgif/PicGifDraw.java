@@ -31,7 +31,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class PicGifDraw extends ImageView {
 
 	// æ≤Ã¨±‰¡ø£¨

@@ -18,7 +18,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class MRelativeLayout extends RelativeLayout {
 	protected static final int ROT = 0;
 	private int mw;

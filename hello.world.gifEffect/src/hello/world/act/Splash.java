@@ -25,7 +25,10 @@ import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Splash extends BaseSetupActivity {
 
 	protected static final int URL_ERROR = 0;

@@ -16,7 +16,10 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Environment;
 import android.widget.Toast;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Mapp extends Application {
 	private String addr;
 	public List<GifDecoder> gifList;

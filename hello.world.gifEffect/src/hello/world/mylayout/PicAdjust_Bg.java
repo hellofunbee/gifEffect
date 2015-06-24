@@ -17,7 +17,10 @@ import android.util.AttributeSet;
 import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 
 public class PicAdjust_Bg extends ImageView {
 	private boolean notInitial = true;

@@ -8,6 +8,10 @@ import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
 import android.view.View;
 
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public abstract class BaseSetupActivity extends Activity {
 	private GestureDetector gesture;
 	private MGesture mgesture;
@@ -21,17 +25,24 @@ public abstract class BaseSetupActivity extends Activity {
 
 	}
 
-	public abstract void showNext() ;
+	/**
+	 * go to next activity
+	 */
+	public abstract void showNext();
 
-	public abstract void  showPre();
-	
+	/**
+	 * go to pre activity
+	 */
+	public abstract void showPre();
+
 	public void next(View v) {
 		showNext();
 	}
-	
+
 	public void pre(View v) {
 		showPre();
 	}
+
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		// TODO Auto-generated method stub
@@ -45,11 +56,11 @@ public abstract class BaseSetupActivity extends Activity {
 		public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
 				float velocityY) {
 			// TODO Auto-generated method stub
-			
+
 			if (e1.getRawX() - e2.getRawX() > 100) {
 				showNext();
 				return true;
-			}else if (e1.getRawX() - e2.getRawX() < -100) {
+			} else if (e1.getRawX() - e2.getRawX() < -100) {
 				showPre();
 				return true;
 			}

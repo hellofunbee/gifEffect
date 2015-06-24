@@ -22,7 +22,10 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Window;
 
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class SettingActivity extends BaseSetupActivity {
 
 	private int w;
